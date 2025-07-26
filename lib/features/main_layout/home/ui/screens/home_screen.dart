@@ -25,7 +25,9 @@ class HomeScreen extends StatelessWidget {
                 enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(w * 0.5)),
                 enabled: true,
-                hintText: "Search on Recipe.."),
+                hintText: "Search on Recipe..",
+                hintStyle: TextStyle(
+                    fontSize: w * 0.045, fontWeight: FontWeight.w600)),
           ),
           SizedBox(
             height: h * 0.03,
